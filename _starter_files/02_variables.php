@@ -22,3 +22,19 @@
 - Variables can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
+$name = 'Brad';
+$age = 40;
+$has_kids = false;
+$cash_on_hand = 20.75;
+
+define('HOST', 'localhost');
+
+echo $name;
+echo $age;
+var_dump($has_kids);
+
+echo $name . 'is' . $age;
+echo "$name is $age";
+echo "${name} is ${age}";
+
+echo 5 + 5;
